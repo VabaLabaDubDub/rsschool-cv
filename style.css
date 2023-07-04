@@ -404,6 +404,27 @@ a:active {
 		max-width: 330px;
 	}
 
+	.main-title h1 {
+		font-size: 32px;
+		margin-top: 20px;
+	}
+
+	.main-subtitle{
+		font-size: 20px;
+	}
+
+	.subtitle-about{
+		font-size: 18px;
+	}
+	
+	.subtitle {
+		font-size: 18px;
+	}
+
+	.about-text{
+		font-size: 16px;
+	}
+
 	.example-code {
 		max-height: none;
 	}
@@ -413,11 +434,16 @@ a:active {
 		line-height: 20px;
 	}
 
+	.skills-wraper li{
+		font-size: 16px;
+	}
+
+	.progress-bar {
+		margin-top: 0px;
+	}
+
 	.wrap {
 		width: 100%;
 	}
 
-	.margin {
-		margin: 10px;
-	}
 }
