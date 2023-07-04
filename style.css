@@ -246,9 +246,10 @@ margin: 20px 0;
 }
 
 footer{
-	height: 80px;
+	height: 70px;
 	background-color: #282729;
 	max-width: 100%;
+	color: #ffffff;
 }
 
 .skills-wraper{
@@ -362,4 +363,17 @@ a:active {
 .info-light{
 	background-color: #e2d7d7;
 	color: #000000;
+}
+
+.rsschool-logo{
+	width: 65px;
+	height: 65px;
+}
+
+.footer-list{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 20px;
 }
