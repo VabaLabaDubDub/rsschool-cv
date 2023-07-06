@@ -1,1 +1,1 @@
-# rsschool-cv
+https://vabalabadubdub.github.io/rsschool-cv/
