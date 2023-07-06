@@ -1,0 +1,449 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus.a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight:400 ;
+
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+
+.header-container{
+	width: 100%;
+	background-color: #282729;
+}
+
+.header-list{
+	color: #ffffff;
+	font-size: 16px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.header-list a {
+	transition: all 0.3s ease;
+}
+.header-list li {
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+}
+
+.header-list li button {
+	margin-right: 10px; 
+}
+
+.btn{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-image: url(/rsschool-cv/img/button/non-active.jpg);
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+img{
+	width: 310px;
+	height: 640px;
+	margin-left: 3.33px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	max-width: 100%;
+	min-height: 100vh;
+	margin: 0 auto;
+}
+.info {
+	color: #fefeffe0;
+	flex: 0 0;
+	background-color: #282729;
+	max-width: 330px;
+	max-height: 100%;
+}
+
+.avatar {
+	margin: 0 10px;
+	width: 330px;
+	height: 650px;
+}
+
+.card{
+	text-align: center;
+}
+
+.subtitle {
+	background-color: #212122;
+	font-size: 20px;
+	margin: 15px 0 15px 0;
+	border-bottom: solid #00000033 2px;
+	position: relative;
+	padding-left: 30px;
+}
+
+.red-square::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 20px;
+	height: 100%;
+	background-color: #d45c84;
+}
+
+.list{
+margin: 0 10px;
+
+}
+.list > li {
+	margin-bottom: 15px;
+	letter-spacing: 0.8px;
+	line-height: 20px;
+	font-size: 13px;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 100%;
+	flex: 1;
+	background-color: #28272998;
+	color: #ffffff;
+}
+
+.about-me{
+width: 100%;
+}
+
+.about-text{
+	font-size: 20px;
+text-align: center;
+margin: 20px 0;
+}
+
+.subtitle-about{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.main-title{
+	position: relative;
+	background-color:  #212122;
+	height: 150px;
+	width: 100%;
+	text-align: center;
+	margin: 100px 0;
+	color: #ffffff;
+	padding-top: 15px;
+}
+
+.main-title h1 {
+	font-size: 60px;
+}
+
+.main-subtitle{
+	font-size: 30px;
+	text-align: center;
+}
+
+.title {
+	margin-top: 15px;
+	font-size: 25px;
+}
+
+.subtitle-about{
+	position: relative;
+	width: 100%;
+
+	background-color: #212122;
+	color: #ffffff
+}
+
+.example-code {
+	max-height: 500px;
+	width: 100%;
+}
+
+.code-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+
+}
+
+.code-text{
+	font-size: 20px;
+	line-height: 25px;
+	height: 100%;
+	margin:20px 0;
+
+}
+
+.skills {
+	width: 100%;
+
+}
+
+.skills-list{
+	display:block;
+}
+
+footer{
+	height: 70px;
+	background-color: #282729;
+	max-width: 100%;
+	color: #ffffff;
+}
+
+.skills-wraper{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 70px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.wrap{
+width: 33.33%;
+	font-size: 16px;
+}
+
+.margin{
+	margin: 33.33px;
+	height: 50px;
+	text-align: center;
+	padding-top: 13px;
+}
+
+.about-container{
+	width: 100%;
+}
+
+a{
+	color:#ffffff
+}
+
+a:active {
+	color: #fbff00;
+}
+
+.progress-bar {
+	margin: 0 auto;
+	width: 100px;
+	height: 6px;
+	background-color: #212122;;
+	border-radius: 10px;
+}
+
+.progress{
+	height: 100%;
+	border-radius: 5px;
+	overflow: hidden;
+
+}
+
+.html-progress{
+	width: 85%;
+	background-color: #d45c84;
+}
+
+.css-progress{
+	width: 80%;
+	background-color: #d45c84;
+}
+
+.js-progress{
+	width: 60%;
+	background-color: #d45c84;
+}
+
+.react-progress{
+	width: 20%;
+	background-color: #d45c84;
+}
+
+.git-progress{
+	width: 70%;
+	background-color: #d45c84;
+}
+
+.github-progress{
+	width: 80%;
+	background-color: #d45c84;
+}
+
+.percent{
+	margin-top: 20px;
+	
+}
+
+.active{
+	background-color: #ebe7e7e0;
+	color: #000000;
+}
+
+.active-subtitles{
+	background-color: #e2d7d7;
+	color: #000000;
+}
+
+.active-subtitles:before{
+	content: none;
+}
+
+.active-btn{
+	background-image: url(/rsschool-cv/img/button/active.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+
+.black{
+	color: #000000;
+}
+
+.info-light{
+	background-color: #e2d7d7;
+	color: #000000;
+}
+
+.rsschool-logo{
+	width: 65px;
+	height: 65px;
+}
+
+.footer-list{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 20px;
+}
+
+.gh-logo{
+	width: 30px;
+	height: 30px;
+	display: block;
+	margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+	.container {
+		flex-direction: column;
+	}
+
+	.header-list{
+		font-size: 10px;
+	}
+
+	.info, .about {
+		max-width: 100%;
+	}
+
+	.avatar {
+		margin: 0 auto;
+		width: 100%;
+		max-width: 330px;
+	}
+
+	.main-title h1 {
+		font-size: 32px;
+		margin-top: 20px;
+	}
+
+	.main-subtitle{
+		font-size: 20px;
+	}
+
+	.subtitle-about{
+		font-size: 18px;
+	}
+	
+	.subtitle {
+		font-size: 18px;
+	}
+
+	.about-text{
+		font-size: 16px;
+	}
+
+	.example-code {
+		max-height: none;
+	}
+
+	.code-text {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.skills-wraper li{
+		font-size: 16px;
+	}
+
+	.progress-bar {
+		margin-top: 0px;
+	}
+
+	.wrap {
+		width: 100%;
+	}
+
+}
